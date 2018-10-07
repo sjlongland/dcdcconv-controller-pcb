@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9615
+D 2-channel multipoint Fast-mode Plus differential I2C-bus buffer with hot-swap logic
+$ENDCMP
+#
+#End Doc Library
