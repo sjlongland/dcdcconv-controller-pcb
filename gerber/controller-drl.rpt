@@ -1,0 +1,28 @@
+Drill report for /home/stuartl/projects/dc-dc-psu/controller/controller.kicad_pcb
+Created on Sun 21 Oct 2018 13:39:23 EST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'controller-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (72 holes)
+    T2  0.50mm  0.020"  (32 holes)
+    T3  1.00mm  0.039"  (18 holes)
+    T4  1.20mm  0.047"  (28 holes)
+    T5  3.00mm  0.118"  (4 holes)
+
+    Total plated holes count 154
+
+
+Drill file 'controller-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
