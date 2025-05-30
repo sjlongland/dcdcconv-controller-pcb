@@ -1,14 +1,22 @@
+[Find this project on codeberg](https://codeberg.org/sjlongland/dcdcconv-controller-pcb)
+
+As a result of Github's decision to force AI-generated issues with no opt-out,
+I am migrating personal projects of mine to Codeberg.  The project at Github
+will be archived.
+
+----
+
 # DC-DC Converter Controller
 
 This PCB (using KiCAD 5.0) implements the controller for a DC-DC converter.
 It provides differential I²C for connection to a [voltage/current sensor
-board](https://github.com/sjlongland/dcdcconv-sensor-pcb) and LVDS outputs for
+board](https://codeberg.org/sjlongland/dcdcconv-sensor-pcb) and LVDS outputs for
 connection to a [driver
-board](https://github.com/sjlongland/dcdcconv-driver-pcb).
+board](https://codeberg.org/sjlongland/dcdcconv-driver-pcb).
 
 The brains of the operation is the Atmel ATTiny861 microcontroller, which
 features a high-speed PLL for fast PWM outputs.  The
-[firmware](https://github.com/sjlongland/dcdcconv-firmware) polls up to two
+[firmware](https://codeberg.org/sjlongland/dcdcconv-firmware) polls up to two
 sensor boards to make decisions on the PWM duty cycle used to control the
 MOSFET driver board.  In theory, the firmware can be expanded to support other
 sensor boards and the MOSFET driver board replaced to support other switch
